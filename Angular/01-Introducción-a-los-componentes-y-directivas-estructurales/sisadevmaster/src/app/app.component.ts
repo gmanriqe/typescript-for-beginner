@@ -5,6 +5,9 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
+// Es aqui donde creo las variables, para luego pintarlas en el archivo: './app.component.html',
 export class AppComponent {
-  title = 'sisadevmaster';
+  nombre = "Devmaster";
+  apellido = "Peru";
 }
